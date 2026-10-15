@@ -14,7 +14,7 @@ else:
 
 
 #pour le quiz moodle
-
+tests = 0
 
 def tester(x):
     appartient = False
@@ -31,8 +31,8 @@ def tester(x):
         return "out"
 
 
+if tests == 1:
+    l = [-2 , 0.1 , 4 , 1.5 , -1 , -9 , 3 , 1.2 , 2.9 , 0 , -20]
 
-l = [-2 , 0.1 , 4 , 1.5 , -1 , -9 , 3 , 1.2 , 2.9 , 0 , -20]
-
-for i in l:
-    print(tester(i))
+    for i in l:
+        print(tester(i))
